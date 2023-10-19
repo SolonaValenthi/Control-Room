@@ -24,8 +24,9 @@ public class CameraControl : MonoBehaviour
 
     private void LateUpdate()
     {
+        Vector3 offset = new Vector3(0, _yOffset, 0);
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, _playerObj.transform.rotation.eulerAngles.y, 0);
-        transform.position = new Vector3(_playerObj.transform.position.x, _playerObj.transform.position.y + _yOffset, _playerObj.transform.position.z);
+        transform.position = _playerObj.transform.position + offset;
     }
 
     private void RotateCamera()

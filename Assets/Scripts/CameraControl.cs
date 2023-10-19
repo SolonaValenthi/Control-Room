@@ -8,7 +8,7 @@ public class CameraControl : MonoBehaviour
     private GameObject _playerObj;
 
     private float _yOffset;
-    private float _rotateSpeed = 90.0f;
+    private float _rotateSpeed = 120.0f;
 
     // Start is called before the first frame update
     void Start()

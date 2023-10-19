@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float _speed = 4.0f;
-    private float _rotateSpeed = 90.0f;
+    private float _speed = 7.0f;
+    private float _rotateSpeed = 120.0f;
 
     MeshRenderer _playerMesh;
 
